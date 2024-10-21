@@ -1,0 +1,25 @@
+{
+  "name": "d365-metadata-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to fetch, parse, and query Dynamics 365 OData metadata",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "d365-metadata-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.3.0",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^12.0.0",
+    "ora": "^6.1.2",
+    "xml2js": "^0.4.23"
+  }
+}
